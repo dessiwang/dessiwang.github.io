@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#f5f3f0"/>
+  <rect x="0" y="500" width="1200" height="300" fill="#e8e2db"/>
+  <!-- Connected buildings -->
+  <rect x="200" y="200" width="250" height="300" fill="#d4ccc2" stroke="#c4b5a5" stroke-width="0.5"/>
+  <rect x="700" y="180" width="280" height="320" fill="#d4ccc2" stroke="#c4b5a5" stroke-width="0.5"/>
+  <!-- Skybridge -->
+  <rect x="450" y="280" width="250" height="40" fill="#d4a574" opacity="0.4" stroke="#d4a574" stroke-width="1"/>
+  <rect x="450" y="350" width="250" height="35" fill="#d4a574" opacity="0.3" stroke="#d4a574" stroke-width="0.5"/>
+  <!-- Windows -->
+  <g fill="#f5f3f0" opacity="0.6">
+    <rect x="220" y="220" width="30" height="40"/><rect x="270" y="220" width="30" height="40"/><rect x="320" y="220" width="30" height="40"/><rect x="370" y="220" width="30" height="40"/>
+    <rect x="220" y="290" width="30" height="40"/><rect x="270" y="290" width="30" height="40"/><rect x="320" y="290" width="30" height="40"/><rect x="370" y="290" width="30" height="40"/>
+    <rect x="220" y="360" width="30" height="40"/><rect x="270" y="360" width="30" height="40"/><rect x="320" y="360" width="30" height="40"/><rect x="370" y="360" width="30" height="40"/>
+    <rect x="720" y="200" width="35" height="45"/><rect x="775" y="200" width="35" height="45"/><rect x="830" y="200" width="35" height="45"/><rect x="885" y="200" width="35" height="45"/>
+    <rect x="720" y="280" width="35" height="45"/><rect x="775" y="280" width="35" height="45"/><rect x="830" y="280" width="35" height="45"/><rect x="885" y="280" width="35" height="45"/>
+    <rect x="720" y="360" width="35" height="45"/><rect x="775" y="360" width="35" height="45"/><rect x="830" y="360" width="35" height="45"/><rect x="885" y="360" width="35" height="45"/>
+  </g>
+  <!-- Terrace/garden -->
+  <rect x="450" y="420" width="250" height="80" fill="#8b8680" opacity="0.1"/>
+  <circle cx="500" cy="450" r="15" fill="#8b8680" opacity="0.2"/>
+  <circle cx="560" cy="440" r="18" fill="#8b8680" opacity="0.15"/>
+  <circle cx="640" cy="445" r="16" fill="#8b8680" opacity="0.2"/>
+  <!-- Labels -->
+  <text x="325" y="170" font-family="system-ui" font-size="9" fill="#8b8680" text-anchor="middle">SENIOR LIVING</text>
+  <text x="840" y="165" font-family="system-ui" font-size="9" fill="#8b8680" text-anchor="middle">FAMILY HOUSING</text>
+  <text x="575" y="305" font-family="system-ui" font-size="8" fill="#d4a574" text-anchor="middle">SKYBRIDGE</text>
+  <text x="600" y="720" font-family="system-ui" font-size="14" fill="#8b8680" text-anchor="middle" letter-spacing="3">ELEVATION</text>
+  <text x="600" y="745" font-family="system-ui" font-size="11" fill="#c4b5a5" text-anchor="middle" letter-spacing="2">SKYBRIDGE TERRACE — PORTLAND, OR</text>
+</svg>

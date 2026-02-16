@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#f5f3f0"/>
+  <rect x="0" y="480" width="1200" height="320" fill="#e8e2db"/>
+  <!-- Building cluster -->
+  <rect x="200" y="180" width="180" height="300" fill="#d4ccc2" stroke="#c4b5a5" stroke-width="0.5"/>
+  <rect x="400" y="220" width="160" height="260" fill="#e8e2db" stroke="#c4b5a5" stroke-width="0.5"/>
+  <rect x="580" y="250" width="200" height="230" fill="#d4ccc2" stroke="#c4b5a5" stroke-width="0.5"/>
+  <rect x="800" y="200" width="150" height="280" fill="#e8e2db" stroke="#c4b5a5" stroke-width="0.5"/>
+  <!-- Windows -->
+  <g fill="#f5f3f0" opacity="0.7">
+    <rect x="220" y="210" width="30" height="40"/><rect x="270" y="210" width="30" height="40"/><rect x="320" y="210" width="30" height="40"/>
+    <rect x="220" y="270" width="30" height="40"/><rect x="270" y="270" width="30" height="40"/><rect x="320" y="270" width="30" height="40"/>
+    <rect x="220" y="330" width="30" height="40"/><rect x="270" y="330" width="30" height="40"/><rect x="320" y="330" width="30" height="40"/>
+    <rect x="420" y="250" width="25" height="35"/><rect x="460" y="250" width="25" height="35"/><rect x="500" y="250" width="25" height="35"/>
+    <rect x="600" y="280" width="30" height="40"/><rect x="650" y="280" width="30" height="40"/><rect x="700" y="280" width="30" height="40"/>
+    <rect x="820" y="230" width="25" height="35"/><rect x="860" y="230" width="25" height="35"/><rect x="900" y="230" width="25" height="35"/>
+  </g>
+  <!-- Courtyard -->
+  <rect x="380" y="490" width="240" height="120" fill="#c4b5a5" opacity="0.3" rx="2"/>
+  <circle cx="450" cy="540" r="15" fill="#8b8680" opacity="0.2"/>
+  <circle cx="550" cy="530" r="20" fill="#8b8680" opacity="0.15"/>
+  <text x="600" y="720" font-family="system-ui" font-size="14" fill="#8b8680" text-anchor="middle" letter-spacing="3">EXTERIOR RENDERING</text>
+  <text x="600" y="745" font-family="system-ui" font-size="11" fill="#c4b5a5" text-anchor="middle" letter-spacing="2">MIXED-INCOME HOUSING</text>
+</svg>
