@@ -22,8 +22,8 @@ export default function ProjectsPage() {
       <div className="mx-auto max-w-[1400px] px-6 lg:px-12">
         <AnimatedSection>
           <div className="max-w-2xl">
-            <p className="text-[11px] font-medium tracking-[0.2em] text-neutral-600 uppercase">Portfolio</p>
-            <h1 className="mt-3 text-4xl font-extralight tracking-tight text-white md:text-6xl">Projects</h1>
+            <p className="text-[11px] font-medium tracking-[0.2em] text-accent uppercase">Portfolio</p>
+            <h1 className="mt-3 text-4xl font-extralight tracking-tight text-neutral-900 md:text-6xl">Projects</h1>
             <p className="mt-4 max-w-lg text-base leading-relaxed text-neutral-500">
               A selection of work exploring affordable housing, community design, and the intersection of density with livability.
             </p>
@@ -38,8 +38,8 @@ export default function ProjectsPage() {
               aria-selected={activeFilter === "all"}
               className={`rounded-full px-4 py-2 text-xs tracking-[0.05em] transition-all duration-300 ${
                 activeFilter === "all"
-                  ? "bg-white text-black"
-                  : "bg-white/5 text-neutral-400 hover:bg-white/10 hover:text-white"
+                  ? "bg-accent text-white"
+                  : "bg-neutral-100 text-neutral-500 hover:bg-neutral-200 hover:text-neutral-900"
               }`}
             >
               All
@@ -52,8 +52,8 @@ export default function ProjectsPage() {
                 aria-selected={activeFilter === cat}
                 className={`rounded-full px-4 py-2 text-xs tracking-[0.05em] transition-all duration-300 ${
                   activeFilter === cat
-                    ? "bg-white text-black"
-                    : "bg-white/5 text-neutral-400 hover:bg-white/10 hover:text-white"
+                    ? "bg-accent text-white"
+                    : "bg-neutral-100 text-neutral-500 hover:bg-neutral-200 hover:text-neutral-900"
                 }`}
               >
                 {categoryLabels[cat]}
@@ -83,8 +83,8 @@ export default function ProjectsPage() {
           )}
         </div>
 
-        <div className="mt-12 border-t border-white/5 pt-6">
-          <p className="text-xs text-neutral-600">
+        <div className="mt-12 border-t border-neutral-200 pt-6">
+          <p className="text-xs text-neutral-400">
             Showing {filteredProjects.length} of {projects.length} projects
           </p>
         </div>
